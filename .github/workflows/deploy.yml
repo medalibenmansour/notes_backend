@@ -28,7 +28,7 @@ jobs:
 
       - name: Deploy JAR to Server
         run: |
-          JAR_NAME="spring_boot_crash_course-0.0.1-SNAPSHOT.jar"
+          JAR_NAME="notes_backend-0.0.1-SNAPSHOT.jar"
           LOCAL_JAR_PATH="build/libs/$JAR_NAME"
           REMOTE_SERVER="admin@91.99.51.59"
           REMOTE_JAR_DIR="/opt/notes"
